@@ -1,6 +1,18 @@
-# Topic
+# Topic: Visual Pattern Recognition
 
-Pick some subset of the information covered in your annual review article that you are interested in exploring in more detail. 
+1. Defination of what is visual pattern recognition
 
-Identify the scope of your user guide - what will you cover? Specific software packages? When to use or not to use a specific technique?
+2. A brief explanation of some specific task in Visual Pattern Recognition
+- Facial recognition
+- Object Detection 
+
+3. Cover software packages & libraries 
+- OpenCV
+- TenserFlow/Keras
+- scikit-learn
+
+
+4. When to use or not to use a specific technique
+- When to use deep learning vs. traditional computer vision techniques: Deep learning learns features automatically but requires training and a large dataset, whereas traditional computer vision requires manual feature extraction and works with a small dataset.
+- Choosing the right classification model: Explain when to use SVMs, neural networks, or decision trees.
 

@@ -1,0 +1,45 @@
+[
+  {
+    "objectID": "topic.html",
+    "href": "topic.html",
+    "title": "Appendix A — Topic: Visual Pattern Recognition",
+    "section": "",
+    "text": "Defination of what is visual pattern recognition\nA brief explanation of some specific task in Visual Pattern Recognition\n\n\nFacial recognition\nObject Detection\n\n\nCover software packages & libraries\n\n\nOpenCV\nTenserFlow/Keras\nscikit-learn\n\n\nWhen to use or not to use a specific technique\n\n\nWhen to use deep learning vs. traditional computer vision techniques: Deep learning learns features automatically but requires training and a large dataset, whereas traditional computer vision requires manual feature extraction and works with a small dataset.\nChoosing the right classification model: Explain when to use SVMs, neural networks, or decision trees.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Topic: Visual Pattern Recognition</span>"
+    ]
+  },
+  {
+    "objectID": "guide.html",
+    "href": "guide.html",
+    "title": "1  User Guide",
+    "section": "",
+    "text": "First off, you should change this section title to something more appropriate.\nNext, well, that’s up to you. Good luck!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>User Guide</span>"
+    ]
+  },
+  {
+    "objectID": "needs.html",
+    "href": "needs.html",
+    "title": "Appendix B — Needs Assessment",
+    "section": "",
+    "text": "What does someone trying to accomplish your chosen task need help with?\nWhat parts are likely to be tricky?\nWhat resources are already available on this topic that may be helpful? Look for e.g. software vignettes, package documentation, papers about software packages, and so on.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Needs Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "task-analysis.html",
+    "href": "task-analysis.html",
+    "title": "Appendix C — Task Analysis",
+    "section": "",
+    "text": "C.1 Additional Guidance\nHere are some questions to guide you through the process of doing a task analysis. You don’t have to specifically answer each one of these (and some may not apply), but they should get you started thinking in the right direction.\nWhat are the prerequisites, for both knowledge and e.g. software setup?\nWhat are the basic requirements for any data that the method is used on? - Are missing values allowed? - Should the data be confined within a certain range? - Does the data have to be approximately normally distributed?\nWhat are the basic components of the task? - Outline these in a bit more detail\nWhat decisions does the user need to be prepared to make on the fly?\nWhat questions should the user ask of the “first draft” of the product? What adjustments may need to be made?\nYour check-in should answer these basic questions (and similar concerns that apply more directly to your topic).\nOnce you’ve completed the check-in, you can use this section to jump-start an introduction/set-up/getting started section in your user guide. This document should remain as an appendix to your main report.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Task Analysis</span>"
+    ]
+  }
+]
