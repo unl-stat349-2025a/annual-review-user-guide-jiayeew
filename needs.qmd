@@ -1,9 +1,19 @@
 # Needs Assessment {.appendix}
 
 What does someone trying to accomplish your chosen task need help with? 
+- Understanding the basics of of visual pattern recognition and how it applies to facial recognition.
+- Selecting the right software package or library 
+- Choosing between traditional computer vision and deep learning models
+- Managing dataset requirements
+- Implementing facial recognition while  balancing accuracy, speed, and computational cost.
 
 What parts are likely to be tricky? 
+- Comparing between the software packages, without making it too general or too detailed.
+- Finding research papers
+- Explaining legal and privacy concerns
 
 What resources are already available on this topic that may be helpful? Look for e.g. software vignettes, package documentation, papers about software packages, and so on.
-
+- Software documentations
+- Research papers
+- Pre trained models 
 

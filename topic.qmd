@@ -2,17 +2,16 @@
 
 1. Defination of what is visual pattern recognition
 
-2. A brief explanation of some specific task in Visual Pattern Recognition
-- Facial recognition
-- Object Detection 
+2. An overiview of Facial Recognition
+- Explain what is Facial Recognition
+- Applications
 
-3. Cover software packages & libraries 
-- OpenCV
-- TenserFlow/Keras
-- scikit-learn
+3. Comparison software packages & libraries 
+- OpenCV:
+- TensorFlow/Keras
+- Scikit-learn:
+- Comparison: Performance, dataset requirements, ease of implementation, and computational efficiency.
 
-
-4. When to use or not to use a specific technique
-- When to use deep learning vs. traditional computer vision techniques: Deep learning learns features automatically but requires training and a large dataset, whereas traditional computer vision requires manual feature extraction and works with a small dataset.
-- Choosing the right classification model: Explain when to use SVMs, neural networks, or decision trees.
-
+4. Choosing the right approach
+- When to use deep learning vs. traditional computer vision techniques
+- Choosing the best model based on dataset size, computational resources, and accuracy needs.

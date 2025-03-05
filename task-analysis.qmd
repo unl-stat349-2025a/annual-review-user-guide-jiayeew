@@ -4,20 +4,30 @@
 Here are some questions to guide you through the process of doing a task analysis. You don't have to specifically answer each one of these (and some may not apply), but they should get you started thinking in the right direction. 
 
 What are the prerequisites, for both knowledge and e.g. software setup? 
+- Understanding of machine and deep learning concepts, and some experience with python.
 
 What are the basic requirements for any data that the method is used on? 
   - Are missing values allowed? 
-  - Should the data be confined within a certain range? 
-  - Does the data have to be approximately normally distributed? 
+  - Should the data be confined within a certain range?  Pixel should be normalized, and images should have a fixed resolution.
+  - Does the data have to be approximately normally distributed?  Dataset should be balance to avoid bias
 
 What are the basic components of the task?
   - Outline these in a bit more detail
-
+  
+  - Preprocess the data
+  - Feature Extraction
+  - Model Selection
+  - Evaluating the model
 
 What decisions does the user need to be prepared to make on the fly?
+  - Preprocessing Choices
+  - Feature Selection
+  - Hyperparameters
+  - Performance vs. Efficiency
 
 What questions should the user ask of the "first draft" of the product? What adjustments may need to be made?
-
+  - Does the model correctly recognize faces across different lighting conditions and angles?
+  - How well does the method perform on a diverse set of faces?
 
 ## Additional Guidance 
 
