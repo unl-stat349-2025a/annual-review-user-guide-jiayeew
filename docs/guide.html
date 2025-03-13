@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-02-12">
+<meta name="dcterms.date" content="2025-03-13">
 
-<title>1&nbsp; User Guide – User Guide: Annual Review Article Topic</title>
+<title>1&nbsp; Facial Recognition User Guide – User Guide: Annual Review Article Topic</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -82,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./guide.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">User Guide</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./guide.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Facial Recognition User Guide</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -116,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./guide.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">User Guide</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Facial Recognition User Guide</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -159,15 +179,27 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#prerequisite" id="toc-prerequisite" class="nav-link active" data-scroll-target="#prerequisite"><span class="header-section-number">1.1</span> <strong>Prerequisite</strong></a></li>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation"><span class="header-section-number">1.2</span> <strong>Motivation</strong></a></li>
+  <li><a href="#what-is-computer-vision" id="toc-what-is-computer-vision" class="nav-link" data-scroll-target="#what-is-computer-vision"><span class="header-section-number">1.3</span> <strong>What is Computer Vision?</strong></a></li>
+  <li><a href="#facial-recognition" id="toc-facial-recognition" class="nav-link" data-scroll-target="#facial-recognition"><span class="header-section-number">1.4</span> <strong>Facial Recognition</strong></a></li>
+  <li><a href="#comparison-of-software-packages-libraries" id="toc-comparison-of-software-packages-libraries" class="nav-link" data-scroll-target="#comparison-of-software-packages-libraries"><span class="header-section-number">1.5</span> <strong>Comparison of Software Packages &amp; Libraries</strong></a></li>
+  <li><a href="#choosing-the-right-approach" id="toc-choosing-the-right-approach" class="nav-link" data-scroll-target="#choosing-the-right-approach"><span class="header-section-number">1.6</span> <strong>Choosing the Right Approach</strong></a></li>
+  <li><a href="#conclusion-and-getting-started-with-your-project" id="toc-conclusion-and-getting-started-with-your-project" class="nav-link" data-scroll-target="#conclusion-and-getting-started-with-your-project"><span class="header-section-number">1.7</span> <strong>Conclusion and Getting Started with Your Project</strong></a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">User Guide</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Facial Recognition User Guide</span></h1>
 </div>
 
 
@@ -178,7 +210,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 12, 2025</p>
+      <p class="date">March 13, 2025</p>
     </div>
   </div>
   
@@ -190,10 +222,213 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>First off, you should change this section title to something more appropriate.</p>
-<p>Next, well, that’s up to you. Good luck!</p>
+<p>Compared to 20 years ago, the field of Artificial Intelligence has significantly transformed how machines can be used and the industries to which they can be applied. One of the key applications of AI in this area is computer vision. This guide will introduce you to the fundamentals of computer vision, with a special focus on facial recognition, and help you choose the most effective tools and approaches for your projects.</p>
+<section id="prerequisite" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="prerequisite"><span class="header-section-number">1.1</span> <strong>Prerequisite</strong></h2>
+<p>Basic understanding of machine learning, deep learning concepts, and some experience with Python is preferred to fully grasp this user guide.</p>
+</section>
+<section id="motivation" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="motivation"><span class="header-section-number">1.2</span> <strong>Motivation</strong></h2>
+<p>When I first started learning about machine learning and deep learning, the vast amount of information on the subject available was overwhelming. Like many beginners, I struggled with knowing where to start, what tools to use, and how to apply my knowledge to navigating a project. I realized that many people face the same challenges I did. That’s why I decided to create this user guide.</p>
+<p>I wanted to build a resource that would help others who are just starting out in this field, particularly those who, like me, are eager to dive into a deep learning project but are unsure where to begin. This guide is designed to be accessible to beginners, offering clear explanations and step-by-step instructions. It’s not just for those who want to understand theory but for anyone who’s ready to start building and experimenting with machine learning models.</p>
+<p>My goal is to provide a practical, hands-on resource for building real-world projects. This will help newcomers feel more confident in their ability to apply machine learning and deep learning concepts. By breaking down complex topics into manageable parts, anyone can start on their own deep learning journey and see the potential of these powerful technologies.</p>
+</section>
+<section id="what-is-computer-vision" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="what-is-computer-vision"><span class="header-section-number">1.3</span> <strong>What is Computer Vision?</strong></h2>
+<p>Computer vision is a subfield of computer science focused on giving machines the ability to interpret, understand, and analyze visual information. The goal of computer vision is to enable machines to mimic human vision, allowing them to ‘see’ and interpret their surroundings <span class="citation" data-cites="LearnComputerVision"><em>Learn <span>Computer Vision Using OpenCV</span>: <span>With Deep Learning CNNs</span> and <span>RNNs</span></em> (<a href="references.html#ref-LearnComputerVision" role="doc-biblioref">n.d.</a>)</span>. While AI allows machines to think, computer vision specializes in allowing them to perceive, observe, and understand visual data <span class="citation" data-cites="matsuzakaAIBasedComputerVision2023">Matsuzaka and Yashiro (<a href="references.html#ref-matsuzakaAIBasedComputerVision2023" role="doc-biblioref">2023</a>)</span>. This process typically involves several key steps, such as data preprocessing, feature extraction, model selection, and model evaluation <span class="citation" data-cites="balasubramanianDeepFakeDetection2022">Balasubramanian et al. (<a href="references.html#ref-balasubramanianDeepFakeDetection2022" role="doc-biblioref">2022</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="compvis.png" class="img-fluid figure-img" width="400"></p>
+<figcaption>Figure 1. Relation between Artificial Intelligence, Machine Learning and Deep Learning, Computer Vision.</figcaption>
+</figure>
+</div>
+</section>
+<section id="facial-recognition" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="facial-recognition"><span class="header-section-number">1.4</span> <strong>Facial Recognition</strong></h2>
+<p>The face is a key element of human identity, serving as a unique identifier and revealing characteristics such as emotions and age. These features are important for recognition, allowing identification based on facial structure and expressions. Facial recognition technology has numerous practical applications, including bank card identification, access control, mugshot searches, security monitoring, and surveillance systems <span class="citation" data-cites="zhaoFaceRecognitionLiterature2003">Zhao et al. (<a href="references.html#ref-zhaoFaceRecognitionLiterature2003" role="doc-biblioref">2003</a>)</span>.</p>
+<p>To better understand how these applications work, let’s explore the key steps involved in facial recognition, as illustrated in Figure 2 and explained below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="workflow.jpg" class="img-fluid figure-img" width="500"></p>
+<figcaption>Figure 2. Key steps of Facial Recognition. <span class="citation" data-cites="kaurFacialrecognitionAlgorithmsLiterature2020">Kaur et al. (<a href="references.html#ref-kaurFacialrecognitionAlgorithmsLiterature2020" role="doc-biblioref">2020</a>)</span></figcaption>
+</figure>
+</div>
+<ol type="1">
+<li><p><strong>Image Capture:</strong></p>
+<ul>
+<li>The probe image, or the initial photograph used for recognition, is captured using a still camera or CCTV, either with or without the subject’s knowledge.</li>
+</ul></li>
+<li><p><strong>Face Detection:</strong></p>
+<ul>
+<li>In this step, the system identifies and isolates the face from the rest of the image, allowing it to focus on the relevant facial features for further analysis.</li>
+</ul></li>
+<li><p><strong>Feature Extraction:</strong></p>
+<ul>
+<li>Key facial features, such as the distance between the eyes or the shape of the nose, are extracted from the detected face for comparison with database images.</li>
+<li>This process creates a unique face template for identification.</li>
+</ul></li>
+<li><p><strong>Matching:</strong></p>
+<ul>
+<li>The generated face template is compared with images in a database. If the features match, the individual’s identity is verified.</li>
+<li>This step is crucial for ensuring accurate identification in practical applications.</li>
+</ul></li>
+<li><p><strong>Identification:</strong></p>
+<ul>
+<li>The final step involves either verifying the individual’s identity (1:1 comparison) or identifying them from a larger database (1:N comparison).</li>
+<li>This step is important for confirming or recognizing the person in real-world scenarios.</li>
+</ul></li>
+</ol>
+</section>
+<section id="comparison-of-software-packages-libraries" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="comparison-of-software-packages-libraries"><span class="header-section-number">1.5</span> <strong>Comparison of Software Packages &amp; Libraries</strong></h2>
+<ol type="1">
+<li><p><strong>OpenCV</strong></p>
+<p>The name OpenCV comes from “open-source computer vision” <span class="citation" data-cites="hasanFaceDetectionRecognition2021">Hasan and Sallow (<a href="references.html#ref-hasanFaceDetectionRecognition2021" role="doc-biblioref">2021</a>)</span>. The OpenCV library is widely known as one of the most accessible tools for facial recognition with Python <span class="citation" data-cites="kumarisirivarshithaApproachFaceDetection2023">Kumari Sirivarshitha et al. (<a href="references.html#ref-kumarisirivarshithaApproachFaceDetection2023" role="doc-biblioref">2023</a>)</span>. It is well-suited for a variety of computer vision tasks, including object tracking, image processing, and transformations like resizing and filtering <span class="citation" data-cites="LearnComputerVision"><em>Learn <span>Computer Vision Using OpenCV</span>: <span>With Deep Learning CNNs</span> and <span>RNNs</span></em> (<a href="references.html#ref-LearnComputerVision" role="doc-biblioref">n.d.</a>)</span>.</p>
+<p>When using OpenCV for facial recognition, the performance and accuracy depend heavily on the quality of the training data. Low-quality images can lead to detection failures, and an excessive number of categories in the training data may cause slower processing times <span class="citation" data-cites="guptaIdentifyingStudyObject">Gupta and Garg (<a href="references.html#ref-guptaIdentifyingStudyObject" role="doc-biblioref">n.d.</a>)</span>. Despite these challenges, OpenCV is generally efficient for real-time applications. However, it does require large datasets when working with deep learning models. Advanced features often require additional setup and integration with deep learning frameworks like TensorFlow or PyTorch <span class="citation" data-cites="PDFComparativeApproach"><span>“(<span>PDF</span>) <span>Comparative Approach</span> for <span>Face Detection</span> in <span>Python</span>, <span>OpenCV</span> and <span>Hardware</span>”</span> (<a href="references.html#ref-PDFComparativeApproach" role="doc-biblioref">n.d.</a>)</span>. Fortunately, it is relatively easy to implement, thanks to its large community and extensive documentation. Furthermore, OpenCV is optimized for low-memory environments, making it ideal for resource-constrained devices such as smartphones and embedded systems <span class="citation" data-cites="singhFaceRecognitionUsing2022">Singh et al. (<a href="references.html#ref-singhFaceRecognitionUsing2022" role="doc-biblioref">2022</a>)</span>.</p></li>
+<li><p><strong>TensorFlow/Keras</strong></p>
+<p>TensorFlow is a deep learning framework, while Keras is a high-level API built on top of TensorFlow, often used together for developing deep learning models. These tools are ideal for handling large-scale datasets and can leverage GPUs and TPUs to accelerate computations <span class="citation" data-cites="abadiTensorFlowLargeScaleMachine2016">Abadi et al. (<a href="references.html#ref-abadiTensorFlowLargeScaleMachine2016" role="doc-biblioref">2016</a>)</span>.</p>
+<p>TensorFlow/Keras offers high flexibility in building custom models, particularly Convolutional Neural Networks (CNNs), which are commonly used in image-related tasks <span class="citation" data-cites="lecunDeepLearning2015">LeCun, Bengio, and Hinton (<a href="references.html#ref-lecunDeepLearning2015" role="doc-biblioref">2015</a>)</span>. However, their performance depends heavily on the quality and size of the dataset. Models require large amounts of labeled data to train effectively, and the ability to generalize and avoid overfitting is directly influenced by both the quantity and quality of this data <span class="citation" data-cites="HandsOnMachineLearning"><em>Hands-<span>On Machine Learning</span> with <span>Scikit-Learn</span>, <span>Keras</span>, and <span>TensorFlow</span>, 2nd <span>Edition</span></em> (<a href="references.html#ref-HandsOnMachineLearning" role="doc-biblioref">n.d.</a>)</span>. Therefore, TensorFlow/Keras is best suited for applications with access to large, well-labeled datasets.</p>
+<p>In addition to data requirements, TensorFlow/Keras also demands a solid understanding of deep learning concepts such as layers, optimizers, and loss functions <span class="citation" data-cites="modiFlowPMDistributedTensorFlow202">(<a href="references.html#ref-modiFlowPMDistributedTensorFlow202" role="doc-biblioref"><strong>modiFlowPMDistributedTensorFlow202?</strong></a>)</span>. Although Keras simplifies many tasks with its high-level API, implementing advanced features still requires a deep understanding of the underlying principles. Training deep learning models on large datasets is computationally expensive and often requires GPUs or TPUs for efficient processing <span class="citation" data-cites="DeepLearningPython"><span>“Deep <span>Learning</span> with <span>Python</span>”</span> (<a href="references.html#ref-DeepLearningPython" role="doc-biblioref">n.d.</a>)</span>. This can significantly increase the time required for training and the resources needed, making TensorFlow/Keras less suitable for resource-constrained environments.</p></li>
+<li><p><strong>Scikit-learn</strong></p>
+<p>Scikit-learn is a beginner-friendly machine learning library that offers simple and efficient tools for data mining and analysis. It includes popular machine learning algorithms, such as classification, regression, and clustering. Thanks to its integration with Python, it’s easy to use and accessible, making it a great starting point for new users. Plus, scikit-learn comes with helpful documentation and examples to guide you as you learn <span class="citation" data-cites="DevelopersGuide"><span>“Developer’s <span>Guide</span>”</span> (<a href="references.html#ref-DevelopersGuide" role="doc-biblioref">n.d.</a>)</span>.</p>
+<p>Scikit-learn achieves high performance through two main optimizations:</p>
+<ul>
+<li>Reduced Memory Usage: It avoids unnecessary data copies, speeding up calculations and reducing processing time by up to 40%.</li>
+<li>Efficiency with Large Datasets: Scikit-learn optimizes the underlying libsvm library (used for support vector machines) to handle large datasets more efficiently <span class="citation" data-cites="PDFScikitlearnMachine2024"><span>“(<span>PDF</span>) <span class="nocase">Scikit-learn</span>: <span>Machine Learning</span> in <span>Python</span>”</span> (<a href="references.html#ref-PDFScikitlearnMachine2024" role="doc-biblioref">2024</a>)</span>.</li>
+</ul>
+<p>While scikit-learn is ideal for small and medium-sized datasets, it can be less efficient with very large datasets compared to libraries designed for handling big data, like TensorFlow or PyTorch <span class="citation" data-cites="MachineLearningPyTorch"><em>Machine <span>Learning</span> with <span>PyTorch</span> and <span>Scikit-Learn</span></em> (<a href="references.html#ref-MachineLearningPyTorch" role="doc-biblioref">n.d.</a>)</span>. However, scikit-learn’s strength lies in its ease of implementation. Its simple API lets users set up and run machine learning models without needing in-depth knowledge of machine learning concepts.</p>
+<p>In terms of computational efficiency, scikit-learn is well-suited for systems with limited memory and is optimized for resource-constrained environments. However, for large datasets or complex tasks like deep learning, you might need additional resources or consider integrating scikit-learn with other tools, such as TensorFlow or PyTorch, for better performance</p></li>
+</ol>
+</section>
+<section id="choosing-the-right-approach" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="choosing-the-right-approach"><span class="header-section-number">1.6</span> <strong>Choosing the Right Approach</strong></h2>
+<p>When building computer vision systems, one of the first decisions you’ll face is whether to use traditional image processing techniques or deep learning models. The choice depends on factors like the size of your dataset, the computational power available, and the level of accuracy needed. Each approach has its strengths. For example, imagine you’re building a system to recognize faces in images. If you only have a small set of images, traditional techniques might be enough. However, if you have thousands of images or need to detect faces in different lighting and angles, deep learning would likely be the better choice.</p>
+<p>In this section, we’ll explore when deep learning is the best choice and when traditional techniques might be more practical. We’ll also discuss how to select the most suitable model based on dataset size, computational resources, and the accuracy your project demands. Below is a decision tree illustration in Figure 3 for your reference.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="dec.jpg" class="img-fluid figure-img" width="718"></p>
+<figcaption>Figure 3. Decision Tree: When to Use Deep Learning vs.&nbsp;Traditional Computer Vision Techniques</figcaption>
+</figure>
+</div>
+<ol type="1">
+<li><strong>When to Use Deep Learning vs Traditional Computer Vision Techniques:</strong></li>
+</ol>
+<p>When building computer vision systems, you’ll often need to decide whether to use deep learning models or traditional image processing techniques.</p>
+<ul>
+<li><p><strong>Use deep learning when:</strong></p>
+<ul>
+<li>You have a large dataset (hundreds or thousands of images).</li>
+<li>The task is complex and requires high accuracy, such as recognizing faces in various lighting conditions or detecting multiple objects in an image <span class="citation" data-cites="lecunDeepLearning2015">LeCun, Bengio, and Hinton (<a href="references.html#ref-lecunDeepLearning2015" role="doc-biblioref">2015</a>)</span>.</li>
+<li>You need to handle variations in the data, like changes in angle or background. Deep learning models like Convolutional Neural Networks (CNNs) excel at recognizing complex patterns in data <span class="citation" data-cites="Goodfellowetal2016">Goodfellow, Bengio, and Courville (<a href="references.html#ref-Goodfellowetal2016" role="doc-biblioref">2016</a>)</span>.</li>
+</ul></li>
+<li><p><strong>Use traditional techniques when:</strong></p>
+<ul>
+<li>You have a smaller dataset (fewer images).</li>
+<li>Your project requires faster processing and lower resource usage. Traditional methods like Haar cascades are quicker to set up and run, but they may not be as accurate, especially in challenging conditions like poor lighting or strange angles <span class="citation" data-cites="loweDistinctiveImageFeatures2004">Lowe (<a href="references.html#ref-loweDistinctiveImageFeatures2004" role="doc-biblioref">2004</a>)</span>.</li>
+<li>You’re working with limited computational resources.</li>
+</ul></li>
+</ul>
+<p>In some cases, a hybrid approach, using both traditional methods and deep learning can be the best of both worlds <span class="citation" data-cites="yafouzHybridDeepLearning2021">Yafouz et al. (<a href="references.html#ref-yafouzHybridDeepLearning2021" role="doc-biblioref">2021</a>)</span>. For instance, you might use traditional methods to quickly find faces in images and then apply deep learning to identify specific emotions or age <span class="citation" data-cites="violaRapidObjectDetection2001">Viola and Jones (<a href="references.html#ref-violaRapidObjectDetection2001" role="doc-biblioref">2001</a>)</span>.</p>
+<ol start="2" type="1">
+<li><strong>Choosing the Best Model Based on Dataset Size, Computational Resources, and Accuracy Needs:</strong></li>
+</ol>
+<p>When selecting a model for your project, there are three key factors to consider: the size of your dataset, the computational power of your system, and the accuracy you require. Here’s a simple guide on how to choose the right model based on these factors:</p>
+<ul>
+<li><p><strong>Small Dataset &amp; Limited Resources:</strong></p>
+<p>If you have a small dataset and limited computational power, traditional image processing techniques are often the best option. These methods, like Haar cascades in OpenCV, feature-based methods, or simple machine learning models in Scikit-learn, are quick to implement and run efficiently. While they may not handle complex variations such as changing lighting or backgrounds, they are great for simpler tasks like face detection or object recognition when you have limited data.</p></li>
+<li><p><strong>Large Dataset &amp; Adequate Resources:</strong></p>
+<p>If you have a large dataset and access to more computational resources, deep learning models like Convolutional Neural Networks (CNNs) are ideal. Deep learning models excel at learning complex patterns and can process large and varied datasets like images with different lighting, angles, or backgrounds. These models do require more time to train and more computing power, but they offer much higher accuracy, especially for complex tasks.</p></li>
+<li><p><strong>Real-Time Applications:</strong></p>
+<p>If your project requires processing data in real time, such as detecting faces in a video feed or tracking objects live, the efficiency of your computer becomes crucial. Traditional methods like Haar cascades are fast and lightweight, making them perfect for quick processing <span class="citation" data-cites="violaRapidObjectDetection2001">Viola and Jones (<a href="references.html#ref-violaRapidObjectDetection2001" role="doc-biblioref">2001</a>)</span>. However, if you need more accuracy, you can use lightweight deep learning models optimized for speed without sacrificing too much accuracy.</p></li>
+</ul>
+<p>In general, deep learning excels at handling complex tasks, particularly when working with large datasets and requiring high accuracy. On the other hand, traditional computer vision methods are still effective for simpler tasks, especially in situations where the dataset is small or computational resources are limited. The decision to use deep learning or traditional techniques ultimately depends on factors such as the size of your dataset, the available computational power, and the accuracy your project demands.</p>
+</section>
+<section id="conclusion-and-getting-started-with-your-project" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="conclusion-and-getting-started-with-your-project"><span class="header-section-number">1.7</span> <strong>Conclusion and Getting Started with Your Project</strong></h2>
+<p>Building a computer vision system involves a lot of decisions, but with the right approach, tools, and mindset, you can achieve great results. By understanding when to use deep learning versus traditional computer vision techniques and knowing how to choose the best model for your dataset, computational resources, and accuracy needs, you are well on your way to mastering the fundamentals of machine learning.</p>
+<p>Remember, every project is an opportunity to learn. If you’re just getting started, <strong>Scikit-learn</strong> is an excellent first tool for tackling smaller projects like basic face detection or image classification. If you’re ready to dive into deep learning, <strong>TensorFlow/Keras</strong> offers the flexibility and power needed to build complex models like Convolutional Neural Networks (CNNs). For real-time applications or if you’re working with limited resources, <strong>OpenCV</strong> will allow you to implement efficient solutions quickly.</p>
+<p>Next steps:</p>
+<ul>
+<li>Try a beginner project: Start with a simple image classification task using Scikit-learn. It’s a great way to practice the basics before moving to more complex models.</li>
+<li>Take on a deep learning challenge: Once you’re comfortable, dive into TensorFlow/Keras for a project like facial recognition or object detection.</li>
+<li>Experiment with OpenCV: For real-time applications, try building a basic face detection system using Haar cascades and see how it performs.</li>
+</ul>
+<p>For further resources, check out these official documentation sites:</p>
+<ol type="1">
+<li><a href="https://scikit-learn.org/stable/">Scikit-learn Documentation:</a> Excellent for understanding basic machine learning concepts.</li>
+<li><a href="https://www.tensorflow.org/">TensorFlow Documentation:</a> Dive deeper into deep learning models with detailed guides and tutorials.</li>
+<li><a href="https://opencv.org/">OpenCV Documentation:</a> Learn about efficient image processing and real-time computer vision tasks.</li>
+</ol>
+<p>If you ever get stuck, don’t hesitate to seek help from the <strong>community</strong>. Platforms like <strong>Stack Overflow</strong>, <strong>Reddit’s r/MachineLearning</strong>, and <strong>Kaggle</strong> are full of people who were once beginners like you, and they are ready to offer advice and support.</p>
+<p>Good luck on your journey into machine learning, and remember, learning to build powerful models takes time, practice, and persistence. Keep experimenting and exploring, and most importantly, have fun!</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-abadiTensorFlowLargeScaleMachine2016" class="csl-entry" role="listitem">
+Abadi, Martín, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, et al. 2016. <span>“<span>TensorFlow</span>: <span>Large-Scale Machine Learning</span> on <span>Heterogeneous Distributed Systems</span>.”</span> March 16, 2016. <a href="https://doi.org/10.48550/arXiv.1603.04467">https://doi.org/10.48550/arXiv.1603.04467</a>.
+</div>
+<div id="ref-balasubramanianDeepFakeDetection2022" class="csl-entry" role="listitem">
+Balasubramanian, Saravana Balaji, Jagadeesh Kannan R, Prabu P, Venkatachalam K, and Pavel Trojovský. 2022. <span>“Deep Fake Detection Using Cascaded Deep Sparse Auto-Encoder for Effective Feature Selection.”</span> <em>PeerJ Computer Science</em> 8 (July): e1040. <a href="https://doi.org/10.7717/peerj-cs.1040">https://doi.org/10.7717/peerj-cs.1040</a>.
+</div>
+<div id="ref-DeepLearningPython" class="csl-entry" role="listitem">
+<span>“Deep <span>Learning</span> with <span>Python</span>.”</span> n.d. Manning Publications. Accessed March 12, 2025. <a href="https://www.manning.com/books/deep-learning-with-python">https://www.manning.com/books/deep-learning-with-python</a>.
+</div>
+<div id="ref-DevelopersGuide" class="csl-entry" role="listitem">
+<span>“Developer’s <span>Guide</span>.”</span> n.d. scikit-learn. Accessed March 12, 2025. <a href="https://scikit-learn/stable/developers/index.html">https://scikit-learn/stable/developers/index.html</a>.
+</div>
+<div id="ref-Goodfellowetal2016" class="csl-entry" role="listitem">
+Goodfellow, Ian, Yoshua Bengio, and Aaron Courville. 2016. <em>Deep Learning</em>. MIT Press.
+</div>
+<div id="ref-guptaIdentifyingStudyObject" class="csl-entry" role="listitem">
+Gupta, Manisa, and Kuchi Garg. n.d. <span>“Identifying <span>Study On Object Detection Using Computer Vision OpenCV</span> Techniques.”</span>
+</div>
+<div id="ref-HandsOnMachineLearning" class="csl-entry" role="listitem">
+<em>Hands-<span>On Machine Learning</span> with <span>Scikit-Learn</span>, <span>Keras</span>, and <span>TensorFlow</span>, 2nd <span>Edition</span></em>. n.d. Accessed March 12, 2025. <a href="https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/">https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/</a>.
+</div>
+<div id="ref-hasanFaceDetectionRecognition2021" class="csl-entry" role="listitem">
+Hasan, Ramadan TH, and Amira Bibo Sallow. 2021. <span>“Face <span>Detection</span> and <span>Recognition Using OpenCV</span>.”</span> <em>Journal of Soft Computing and Data Mining</em> 2 (2, 2): 86–97. <a href="https://publisher.uthm.edu.my/ojs/index.php/jscdm/article/view/8791">https://publisher.uthm.edu.my/ojs/index.php/jscdm/article/view/8791</a>.
+</div>
+<div id="ref-kaurFacialrecognitionAlgorithmsLiterature2020" class="csl-entry" role="listitem">
+Kaur, Paramjit, Kewal Krishan, Suresh K. Sharma, and Tanuj Kanchan. 2020. <span>“Facial-Recognition Algorithms: <span>A</span> Literature Review.”</span> <em>Medicine, Science and the Law</em> 60 (2): 131–39. <a href="https://doi.org/10.1177/0025802419893168">https://doi.org/10.1177/0025802419893168</a>.
+</div>
+<div id="ref-kumarisirivarshithaApproachFaceDetection2023" class="csl-entry" role="listitem">
+Kumari Sirivarshitha, Ainampudi, Kadavakollu Sravani, Kothamasu Santhi Priya, and Vasantha Bhavani. 2023. <span>“An Approach for <span>Face Detection</span> and <span>Face Recognition</span> Using <span>OpenCV</span> and <span>Face Recognition Libraries</span> in <span>Python</span>.”</span> In <em>2023 9th <span>International Conference</span> on <span>Advanced Computing</span> and <span>Communication Systems</span> (<span>ICACCS</span>)</em>, 1:1274–78. <a href="https://doi.org/10.1109/ICACCS57279.2023.10113066">https://doi.org/10.1109/ICACCS57279.2023.10113066</a>.
+</div>
+<div id="ref-LearnComputerVision" class="csl-entry" role="listitem">
+<em>Learn <span>Computer Vision Using OpenCV</span>: <span>With Deep Learning CNNs</span> and <span>RNNs</span></em>. n.d. Accessed March 11, 2025. <a href="https://learning.oreilly.com/library/view/learn-computer-vision/9781484242612/">https://learning.oreilly.com/library/view/learn-computer-vision/9781484242612/</a>.
+</div>
+<div id="ref-lecunDeepLearning2015" class="csl-entry" role="listitem">
+LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. 2015. <span>“Deep Learning.”</span> <em>Nature</em> 521 (7553): 436–44. <a href="https://doi.org/10.1038/nature14539">https://doi.org/10.1038/nature14539</a>.
+</div>
+<div id="ref-loweDistinctiveImageFeatures2004" class="csl-entry" role="listitem">
+Lowe, David G. 2004. <span>“Distinctive <span>Image Features</span> from <span>Scale-Invariant Keypoints</span>.”</span> <em>International Journal of Computer Vision</em> 60 (2, 2): 91–110. <a href="https://doi.org/10.1023/B:VISI.0000029664.99615.94">https://doi.org/10.1023/B:VISI.0000029664.99615.94</a>.
+</div>
+<div id="ref-MachineLearningPyTorch" class="csl-entry" role="listitem">
+<em>Machine <span>Learning</span> with <span>PyTorch</span> and <span>Scikit-Learn</span></em>. n.d. Accessed March 12, 2025. <a href="https://learning.oreilly.com/library/view/machine-learning-with/9781801819312/">https://learning.oreilly.com/library/view/machine-learning-with/9781801819312/</a>.
+</div>
+<div id="ref-matsuzakaAIBasedComputerVision2023" class="csl-entry" role="listitem">
+Matsuzaka, Yasunari, and Ryu Yashiro. 2023. <span>“<span>AI-Based Computer Vision Techniques</span> and <span>Expert Systems</span>.”</span> <em>AI</em> 4 (1, 1): 289–302. <a href="https://doi.org/10.3390/ai4010013">https://doi.org/10.3390/ai4010013</a>.
+</div>
+<div id="ref-PDFComparativeApproach" class="csl-entry" role="listitem">
+<span>“(<span>PDF</span>) <span>Comparative Approach</span> for <span>Face Detection</span> in <span>Python</span>, <span>OpenCV</span> and <span>Hardware</span>.”</span> n.d. ResearchGate. Accessed March 11, 2025. <a href="https://www.researchgate.net/publication/372724858_Comparative_Approach_for_Face_Detection_in_Python_OpenCV_and_Hardware">https://www.researchgate.net/publication/372724858_Comparative_Approach_for_Face_Detection_in_Python_OpenCV_and_Hardware</a>.
+</div>
+<div id="ref-PDFScikitlearnMachine2024" class="csl-entry" role="listitem">
+<span>“(<span>PDF</span>) <span class="nocase">Scikit-learn</span>: <span>Machine Learning</span> in <span>Python</span>.”</span> 2024. <em>ResearchGate</em>, December. <a href="https://www.researchgate.net/publication/51969319_Scikit-learn_Machine_Learning_in_Python">https://www.researchgate.net/publication/51969319_Scikit-learn_Machine_Learning_in_Python</a>.
+</div>
+<div id="ref-singhFaceRecognitionUsing2022" class="csl-entry" role="listitem">
+Singh, Gurpreet, Ishika Gupta, Jaspreet Singh, and Navneet Kaur. 2022. <span>“Face <span>Recognition</span> Using <span>Open Source Computer Vision Library</span> (<span>OpenCV</span>) with <span>Python</span>.”</span> In <em>2022 10th <span>International Conference</span> on <span>Reliability</span>, <span>Infocom Technologies</span> and <span>Optimization</span> (<span>Trends</span> and <span>Future Directions</span>) (<span>ICRITO</span>)</em>, 1–6. <a href="https://doi.org/10.1109/ICRITO56286.2022.9964836">https://doi.org/10.1109/ICRITO56286.2022.9964836</a>.
+</div>
+<div id="ref-violaRapidObjectDetection2001" class="csl-entry" role="listitem">
+Viola, P., and M. Jones. 2001. <span>“Rapid Object Detection Using a Boosted Cascade of Simple Features.”</span> In <em>Proceedings of the 2001 <span>IEEE Computer Society Conference</span> on <span>Computer Vision</span> and <span>Pattern Recognition</span>. <span>CVPR</span> 2001</em>, 1:I–. <a href="https://doi.org/10.1109/CVPR.2001.990517">https://doi.org/10.1109/CVPR.2001.990517</a>.
+</div>
+<div id="ref-yafouzHybridDeepLearning2021" class="csl-entry" role="listitem">
+Yafouz, Ayman, Ali Najah Ahmed, Nur’atiah Zaini, Mohsen Sherif, Ahmed Sefelnasr, and Ahmed El-Shafie. 2021. <span>“Hybrid Deep Learning Model for Ozone Concentration Prediction: Comprehensive Evaluation and Comparison with Various Machine and Deep Learning Algorithms.”</span> <em>Engineering Applications of Computational Fluid Mechanics</em> 15 (1): 902–33. <a href="https://doi.org/10.1080/19942060.2021.1926328">https://doi.org/10.1080/19942060.2021.1926328</a>.
+</div>
+<div id="ref-zhaoFaceRecognitionLiterature2003" class="csl-entry" role="listitem">
+Zhao, W., R. Chellappa, P. J. Phillips, and A. Rosenfeld. 2003. <span>“Face Recognition: <span>A</span> Literature Survey.”</span> <em>ACM Comput. Surv.</em> 35 (4): 399–458. <a href="https://doi.org/10.1145/954339.954342">https://doi.org/10.1145/954339.954342</a>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
